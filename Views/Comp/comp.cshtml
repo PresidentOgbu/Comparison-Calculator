@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Root Comparison Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">The Root Comparison Calculator</h1>
+</div>
+
+@{
+
+}
+
+<div>
+    <form asp-controller="Calc" asp-action="Compare" method="POST">
+        <input type="number" placeholder="First Number" name="firstNumber"/>
+        <input type="number" placeholder="Second Number" name="secondNumber"/>
+        <button type="submit">Submit</button>
+    </form>    
+</div>
