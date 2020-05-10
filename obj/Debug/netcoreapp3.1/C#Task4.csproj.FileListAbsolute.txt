@@ -35,4 +35,4 @@ C:\Users\SAMSUNG\C#Task4\obj\Debug\netcoreapp3.1\C#Task4.dll
 C:\Users\SAMSUNG\C#Task4\obj\Debug\netcoreapp3.1\C#Task4.pdb
 C:\Users\SAMSUNG\C#Task4\obj\Debug\netcoreapp3.1\C#Task4.genruntimeconfig.cache
 C:\Users\SAMSUNG\C#Task4\obj\Debug\netcoreapp3.1\C#Task4.csproj.CopyComplete
-C:\Users\SAMSUNG\C#Task4\obj\Debug\netcoreapp3.1\Razor\Views\Comp\comp.cshtml.g.cs
+C:\Users\SAMSUNG\C#Task4\obj\Debug\netcoreapp3.1\Razor\Views\Calc\Sqrt.cshtml.g.cs

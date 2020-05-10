@@ -20531,13 +20531,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\SAMSUNG\\C#Task4\\Views\\Comp\\comp.cshtml",
-      "TargetPath": "Views\\Comp\\comp.cshtml",
+      "FilePath": "c:\\Users\\SAMSUNG\\C#Task4\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\SAMSUNG\\C#Task4\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\SAMSUNG\\C#Task4\\Views\\Calc\\Sqrt.cshtml",
+      "TargetPath": "Views\\Calc\\Sqrt.cshtml",
       "FileKind": "mvc"
     },
     {

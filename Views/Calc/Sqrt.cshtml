@@ -1,0 +1,69 @@
+@{
+    ViewData["Title"] = "Root Comparison Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">The Root Comparison Calculator</h1>
+    <p>Insert two numbers and get a square root comparison</p>
+</div>
+
+
+<div>
+    <form asp-controller="Calc" asp-action="Sqrt" method="POST">
+        <input type="number" placeholder="First Number" name="firstNumber"/>
+        <input type="number" placeholder="Second Number" name="secondNumber"/>
+        <button type="submit">Compare</button>
+    </form>    
+</div>
+
+@{
+    if(ViewBag.ErrorMessageValue != null)
+    {
+        <div>
+            <h2>@ViewBag.ErrorMessageValue</h2>
+        </div>
+    }
+}
+
+@{
+    if (ViewBag.FormatError != null)
+    {
+        <div>
+            <h2>@ViewBag.FormatError</h2>
+        </div>
+    }
+}
+
+@{
+    if (ViewBag.FormatErrorNullException != null)
+    {
+        <div>
+            <h2>@ViewBag.FormatErrorNullException</h2>
+        </div>
+    }
+}
+
+
+@{
+    if (ViewBag.Result != null)
+    {
+        <div>
+            @{
+                if (ViewBag.firstSqrtValue > ViewBag.secondSqrtValue)
+                {
+                    <h2>The number @ViewBag.numberOneValue with Square root @ViewBag.firstSqrtValue has a higher square root than the number @ViewBag.numberTwoValue with square root @ViewBag.secondSqrtValue</h2>
+                }
+                else if (ViewBag.secondSqrtValue > ViewBag.firstSqrtValue)
+                {
+                    <h2>The number @ViewBag.numberTwoValue with Square root @ViewBag.secondSqrtValue has a higher square root than the number @ViewBag.numberOneValue with square root @ViewBag.firstSqrtValue</h2>
+                }
+                else if (ViewBag.secondSqrtValue == ViewBag.firstSqrtValue)
+                {
+                    <h2>The number @ViewBag.numberOneValue with Square root @ViewBag.firstSqrtValue has an equal square root with the number @ViewBag.numberTwoValue with square root @ViewBag.secondSqrtValue</h2>
+                    <p>Please Enter Another Value</p>
+                }
+            }
+            
+        </div>    
+    }
+}
